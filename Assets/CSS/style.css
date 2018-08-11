@@ -1,0 +1,199 @@
+body {
+  background-image: url("https://i.imgur.com/ibstMrr.png");
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#Header {
+  font-family: 'sans-serif', Times, Times New Roman, serif;
+  background-color: #ffffff;
+  border-color: #cccccc;
+  color: #777777;
+  height: 100px;
+  width: 100%;
+  float: left;
+  clear: both;
+  position:static;
+}
+
+/* ////// ABOUT ME PAGE \\\\\\ */
+
+#Name {
+  background-color: #4aaaa5;
+  float: left;
+  color: #ffffff;
+  width: 260px;
+  padding: 10px;
+  z-index: 2;
+}
+
+
+#AboutMe {
+  background-color: #ffffff;
+  border: 2px solid #dddddd;
+  padding: 30px;
+  margin: 40px;
+  margin-left: 100px;
+  margin-right: 150px;
+  width: 960px;
+  height: 60%;
+  float: right;
+  Font: 'sans-serif', Helvetica Neue, Helvetica;
+  z-index: 1
+}
+
+h2 {
+  color: #4aaaa5;
+  font-size: 180%;
+}
+
+aside {
+  padding: 25px;
+  float: left;
+}
+
+p {
+  font: 'sans-serif', 'Helvetica Neue', Helvetica;
+  color: #777777;
+  float: right;
+}
+
+section {
+  float: right;
+  padding: 25px;
+  font: 'sans-serif', 'Helvetica Neue', Helvetica;
+  color: #dddddd;
+}
+
+/* ////// CONTACT PAGE \\\\\\ */
+
+#Contact {
+  background-color: #ffffff;
+  border: 2px solid #dddddd;
+  padding: 30px;
+  margin: 40px;
+  margin-left: 150px;
+  margin-right: 150px;
+  width: 960px;
+  height: 450px;
+  float: right;
+  Font: 'sans-serif', Helvetica Neue, Helvetica;
+  z-index: 1
+}
+
+.ContactInfo {
+  font: 'sans-serif', Helvetica Neue, Helvetica;
+  color: #cccccc;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+/* ////// PORTFOLIO PAGE \\\\\\ */
+
+#Portfolio {
+  background-color: #ffffff;
+  border: 2px solid #dddddd;
+  padding: 30px;
+  margin: 40px;
+  margin-left: 150px;
+  margin-right: 150px;
+  width: 960px;
+  height: 450px;
+  float: right;
+  Font: 'Arial', Helvetica Neue, Helvetica, sans-serif;
+  z-index: 1
+}
+
+.Box-1, .Box-2 {
+  padding: 30px;
+  margin: 40px;
+  width: 100px;
+  height: 100px;
+  float: left;
+  font: 'Arial', Helvetica Neue, Helvetica, sans-serif;
+}
+
+.Box-1-Text, .Box-2-Text {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 40px;
+  width: 100px;
+  color: #dddddd;
+  background-color: #4aaaa5;
+  float: left;
+}
+
+#Box-1-Pic, #Box-2-Pic {
+  height: 100%;
+  width: 100%; 
+  float: left;
+}
+
+/* //////GENERAL FOOTER\\\\\\ */
+.footercontent {
+  background-color: #666666;
+  clear: both;
+  width: 100%;
+  border-top: 5px solid #4aaaa5;
+  padding: 50px;
+  height: 100%;
+  margin: 0;
+  float: left;
+}
+.content {
+padding: 20px;
+min-height: 100%;
+margin: 0 auto -50px;
+}
+.footer,
+.push {
+text-align: center
+}
+
+@media screen and (max-width:980px) {
+  #container{
+    width:100%;
+  }
+
+  #AboutMe{
+    width:100%;
+  }
+
+  img{
+    width:100%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  #container{
+    width:100%;
+  }
+
+  #AboutMe{
+    width:100%;
+  }
+  
+  img{
+    width:100%;
+  }
+
+}
+
+@media screen and (max-width:640px) {
+  #container{
+    width:100%;
+  }
+
+  #AboutMe{
+    width:100%;
+  }
+
+  img{
+    width:50%;
+  }
+}
